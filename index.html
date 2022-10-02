@@ -10,10 +10,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
-    
+    <div class="container">
+      <div class="topNav">
+        <a href="#"><img class="logo" src="logo.png"></a>
+        <div class="dropdown">
+  <button  onclick="myFunction()" class="dropbtn">&#9776;</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Api</a>
+    <a href="https://www.facebook.com/KS-Dictionary-100192889538978/">Follow Facebook Page</a>
+    <a href="index.html">Refresh </a>
+    <a href="#">Settings</a>
+    <a href="#">Sign In</a>
+  </div>
+</div>
+      </div>
+      
 
+    <img class="blush" src="Dayflow-riding.png">
     <div class="wrapper">
-      <header><img class="logo" src="logo.png"></header>
       <div class="search">
         <input type="text" placeholder="Search for an English word" required spellcheck="false">
         <i class="fas fa-search"></i>
@@ -23,8 +37,8 @@
       <ul>
         <li class="word">
           <div class="details">
-            <p>__</p>
-            <span>_ _</span>
+            <p>undefined</p>
+            <span>undefined</span>
           </div>
           <i class="fas fa-volume-up"></i>
         </li>
@@ -32,13 +46,13 @@
           <li class="meaning">
             <div class="details">
               <p>Meaning</p>
-              <span>___</span>
+              <span>undefined</span>
             </div>
           </li>
           <li class="example">
             <div class="details">
               <p>Example</p>
-              <span>___</span>
+              <span>undefined</span>
             </div>
           </li>
           <li class="synonyms">
@@ -50,8 +64,23 @@
         </div>
       </ul>
     </div>
-
+    <img class="blush2" src="avatar.png">
+    <div class="wrapper2">
+      <p class="typeWriter">KS Dictionary <span  class="for">for</span>
+  <span
+     class="txt-rotate"
+     data-period="2000"
+     data-rotate='[ "Meaning.", "Example.", "Pronunciation.", "Transcription." ]'></span>
+</p>
+<p class="subTypeWriter">Welcome to KS Dictionary. <br/>KS Dictionary is a website that gives Meaning, Correct Pronounciation, Transcriptions, Synonyms, Anthonyms and Examples of words you search for.</p>
+  <script  src="./js/script.js"></script>
+      <br/>
+      <br/>
+      <p class="clickBelow">Click on the like Button below to like our Facebook page for more info and click on the share button to share this to you feed.</p>
+      <iframe class="like" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKS-Dictionary-100192889538978%2F&width=150&layout=button_count&action=like&size=small&share=true&height=46&appId" width="150" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
+    </div>
+    <script src="typewriter.js"></script>
     <script src="script.js"></script>
-
   </body>
 </html>
